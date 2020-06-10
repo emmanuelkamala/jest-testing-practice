@@ -2,9 +2,6 @@
 
 This is a Javascript testing of different challenges using Jest framework. The problems are in one module that have been exported and imported in a testing file using destructuring method.
 
-![screenshot](./dist/img/testing.png)
-
-
 
 ## Built With
 
@@ -12,10 +9,6 @@ This is a Javascript testing of different challenges using Jest framework. The p
 - Babel
 - Jest
 - ES6 modules
-
-## Live Version
-
-[Live Link](https://emmanuelkamala.github.io/test/)
 
 
 ## Getting Started
