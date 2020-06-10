@@ -18,3 +18,7 @@ test('adds 2 plus 2 to equal 4', () => {
 test('subtract 4 minus 3 to equal 1', () => {
   expect(calculator.subtract(4,3)).toBe(1);
 });
+
+test('Multipy 4 times 3 to equal 12', () => {
+  expect(calculator.multipy(4,3)).toBe(12);
+});
