@@ -3,12 +3,15 @@ export function capitalize(s) {
   return s.charAt(0).toUpperCase() + s.slice(1)
   }
 
-export function sum(a,b) {
-  return a + b;
-}
-
 export function reverse(str){
   return str.split("").reverse().join("");
+}
+
+export const calculator =  {
+  add: (a, b) => {return a + b;},
+  subtract: (a, b) => {return a - b;},
+  multipy: (a, b) => {return a * b;},
+  divide: (a, b) => {return a / b;},
 }
 
 
