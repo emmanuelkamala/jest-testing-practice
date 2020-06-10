@@ -22,3 +22,7 @@ test('subtract 4 minus 3 to equal 1', () => {
 test('Multipy 4 times 3 to equal 12', () => {
   expect(calculator.multipy(4,3)).toBe(12);
 });
+
+test('Divide 28 by 4 to equal 7', () => {
+  expect(calculator.divide(28,4)).toBe(7);
+});
