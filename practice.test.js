@@ -1,16 +1,18 @@
 
 import { capitalize, analyse, caesar, calculator, reverse } from './practice'
 
-
+// Testing capitalize
 test(`capitalize 'now' to equal 'Now'`, () => {
   expect(capitalize('now')).toBe('Now');
 });
 
 
+// Testing reverse
 test(`reverse 'this' to equal 'siht'`, () => {
   expect(reverse('this')).toBe('siht');
 })
 
+// Testing calculator object functions
 test('adds 2 plus 2 to equal 4', () => {
   expect(calculator.add(2,2)).toBe(4);
 });
@@ -27,6 +29,8 @@ test('Divide 28 by 4 to equal 7', () => {
   expect(calculator.divide(28,4)).toBe(7);
 });
 
+
+// Testing caesar cipher 
 
 describe('caesar', () => {
   it('encrypts a lower case letter', () => {
@@ -55,6 +59,8 @@ describe('caesar', () => {
   });
 });
 
+
+// Testing analyse object functions
 
 describe('analyse', () => {
   it('finds the minimum value of an array', () => {
