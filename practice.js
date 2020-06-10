@@ -25,4 +25,11 @@ export const caesar = string => string.replace(/([a-z])/ig, ( char => {
   }) );
 
 
+  export const analyse = array => ( {
+    length: array.length,
+    average: array.reduce( (accumulator, current) => accumulator + current, 0) / array.length,
+      max: array.sort((a, b) => a - b).pop(),
+      min: array.shift()
+    }
+  );
 
